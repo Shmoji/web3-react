@@ -19,7 +19,9 @@ const chainIdToNetwork: { [network: number]: string } = {
   18: 'thundercoreTestnet',
   163: 'lightstreams',
   122: 'fuse',
-  15001: 'maticTestnet'
+  15001: 'maticTestnet',
+  42161: 'arbitrumMainnet',
+  421611: 'arbitrumTestnet'
 }
 
 type Network = number | { chainId: string; [key: string]: any }
